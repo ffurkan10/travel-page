@@ -183,6 +183,9 @@
   letter-spacing: 0.5rem;
   font-weight: 100;
 }
+.anime-right p {
+  text-align: justify;
+}
 #asteriks {
   text-align: center;
   margin: 0 auto;
@@ -282,8 +285,7 @@
 .container-footer {
   display: flex;
   align-items: center;
-  height: 30vh;
-  padding: 0px 20px;
+  padding: 40px 20px;
   justify-content: space-between;
 }
 .locations {
@@ -300,11 +302,9 @@
 
 #last {
   background-color: rgba(255, 248, 220, 0.433);
-  height: 10vh;
-  padding: 25px;
 }
 .container-last {
-  padding: 0px 20px;
+  padding: 25px;
 }
 .info {
   display: flex;
@@ -401,7 +401,7 @@
     margin-bottom: 20px;
   }
   .container-footer {
-    height: 40vh;
+    padding: 25px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -414,15 +414,42 @@
   .left-info {
     margin-bottom: 10px;
   }
-  #last {
-    height: 15vh;
+  .loc-1 p {
+    font-size: 16px;
+  }
+  .loc-2 p {
+    font-size: 16px;
+  }
+  .loc-3 p {
+    font-size: 16px;
+  }
+  .left-info p {
+    font-size: 16px;
+  }
+  .right-info p {
+    font-size: 16px;
   }
 }
-@media screen and (max-width: 600px) {
-  .footer {
-    height: 45vh;
+@media screen and (max-width: 500px) {
+  .loc-1 p {
+    font-size: 12px;
   }
-  #last {
-    height: 20vh;
+  .loc-2 p {
+    font-size: 12px;
+  }
+  .loc-3 p {
+    font-size: 12px;
+  }
+  .left-info p {
+    font-size: 12px;
+  }
+  .right-info p {
+    font-size: 12px;
+  }
+  .left-info a {
+    font-size: 12px;
+  }
+  .right-info a {
+    font-size: 12px;
   }
 }
